@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/de708b1bb9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="weather-container">
+      <div class="weather-card">
+        <div class="input-field">
+          <div class="search-div">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Type in your city.."
+            />
+          </div>
+
+          <div class="btn-div">
+            <button id="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="weather-title">
+          <div class="title">
+            <h1 id="weather-title">Weather App</h1>
+          </div>
+
+          <div class="temp-control">
+            <h1 id="temp">0.00 °C</h1>
+          </div>
+        </div>
+
+        <div class="weather-details">
+          <p id="humid">Humidity: 0%</p>
+          <p id="wind">Forecast: Unknown</p>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
